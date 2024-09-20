@@ -28,7 +28,7 @@ public class Main {
             System.out.println(s);
 
         } catch (FileNotFoundException e) {
-            System.out.println("файл не найден");
+
             System.out.println(e.getMessage());
         }
     }
@@ -37,7 +37,7 @@ public class Main {
         System.out.println(divIf(10, 5));
         System.out.println(divIf(9, 5));
         System.out.println(divIf(8, 0));
-
+        System.out.println("jhgjgjhgm");
         System.out.println(divE(9, 5));
         System.out.println(divE(8, 0));
         try {
